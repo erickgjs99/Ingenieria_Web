@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="farmacia" id="026F2BBA-C727-6538-9A57-FC3ABA40186C" version="3.5">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:09:52 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>026F2BBA-C727-6538-9A57-FC3ABA40186C</designId>
+</OSDM_Design>

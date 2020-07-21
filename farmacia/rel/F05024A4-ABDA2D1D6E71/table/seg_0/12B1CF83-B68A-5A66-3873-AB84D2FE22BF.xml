@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12B1CF83-B68A-5A66-3873-AB84D2FE22BF" name="EMPLEDO">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:14:35 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_empleado" id="2573A51E-A8EC-AF0A-F621-D1092BE4C082">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:15:36 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sueldo" id="145E9993-7BE3-B4F8-EA36-14F1C9388433">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:15:36 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="9FEA8C6E-08D7-58BD-E9CF-6F093A20D9AD">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:15:36 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FARMACIAS_codigo_farmacia" id="241D54BC-823E-EF49-ABC1-0A7BADF7043E">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:36:55 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F21E56C7-D238-A304-7B4B-6E35D9118F3C" referredColumn="1CB18B4F-0725-5F5C-6301-417B1708446C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D3C52C4-F8C8-6BEE-348A-B1A18999405C" name="EMPLEDO_PK">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:15:36 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2573A51E-A8EC-AF0A-F621-D1092BE4C082"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2B54456-44F5-777B-99EE-4D8E6F89196A" name="EMPLEDO_FARMACIAS_FK">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:36:55 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="241D54BC-823E-EF49-ABC1-0A7BADF7043E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

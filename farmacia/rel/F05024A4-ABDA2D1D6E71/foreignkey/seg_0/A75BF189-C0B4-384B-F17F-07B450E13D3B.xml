@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A75BF189-C0B4-384B-F17F-07B450E13D3B" containerWithKeyObject="3E78A239-5305-97B3-D350-58F3C76A2DAA" localFKIndex="3A9DF7CF-4643-0FB6-798E-F3EA66227A0F" name="CIUDADES_EMPLEDO_FK">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:36:43 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<referredTableLongName>EMPLEDO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>12B1CF83-B68A-5A66-3873-AB84D2FE22BF</referredTableID>
+<keyObject>9D3C52C4-F8C8-6BEE-348A-B1A18999405C</keyObject>
+<referredKeyID>9D3C52C4-F8C8-6BEE-348A-B1A18999405C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_empleado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

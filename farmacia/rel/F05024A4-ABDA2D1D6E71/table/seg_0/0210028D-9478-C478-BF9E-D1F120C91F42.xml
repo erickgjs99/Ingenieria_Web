@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0210028D-9478-C478-BF9E-D1F120C91F42" name="FARMACIA_MEDICAMENTOS">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:33:06 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cantidad" id="C50DC29D-0457-0644-77FE-E552D451CEF3">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:33:40 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEDICAMENTO_cod_medicamento" id="44EB7FE4-A345-0E6F-B607-B942C2AF3A12">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:35:57 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="156BF5D5-7BE9-69E7-ACD1-40F607B8A387" referredColumn="DF7EE615-5E20-22B1-BD41-572391EEA435"/>
+</associations>
+</Column>
+<Column name="FARMACIAS_codigo_farmacia" id="8273E061-E5E1-2DB5-D83C-DEFDCEE8D890">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:36:09 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CDD617A-ED74-9616-D176-FF90B4927D79" referredColumn="1CB18B4F-0725-5F5C-6301-417B1708446C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D0DD07F-DA80-9FE8-BA09-44F74B6A0F73" name="FARMACIA_MEDICAMENTOS_PK">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:37:42 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44EB7FE4-A345-0E6F-B607-B942C2AF3A12"/>
+<colUsage columnID="8273E061-E5E1-2DB5-D83C-DEFDCEE8D890"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FADBAB57-0DF0-7790-8DAA-B90D3217F63E" name="FARMACIA_MEDICAMENTOS_MEDICAMENTO_FK">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:35:57 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44EB7FE4-A345-0E6F-B607-B942C2AF3A12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6965F6AE-101B-5C08-5FD5-FF8A16AC4AFC" name="FARMACIA_MEDICAMENTOS_FARMACIAS_FK">
+<createdBy>Erick Jaramillo</createdBy>
+<createdTime>2020-07-21 23:36:09 UTC</createdTime>
+<ownerDesignName>farmacia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8273E061-E5E1-2DB5-D83C-DEFDCEE8D890"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
