@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+    background-color: rgb(236, 236, 236);
+}
+header.cabeceraPrincipal{
+    background-color: rgb(45, 53, 58);
+    color: #ffffff;
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    border-bottom: 5px solid #000000;
+}
+main{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(231, 230, 231);
+}
+main section.contenedor{padding: 3em 0em 2em 0em ;}
+header.cabeceraPrincipal img{
+    max-width: 100%;
+    display: inline-block;
+    padding: 1em 1em;
+    vertical-align: top;
+}
+header.cabeceraPrincipal h1{
+    font-size: 2em;
+    padding: 1em 20em 0em 0em;
+    width: 60%;
+    display: inline-block;
+    text-shadow: rgb(36, 36,36) 2px 2px 1px;
+
+}
+
+nav.menuPrincipal, .sliderPrincipal,  .modulosPrincipales, .piePagina{
+    width: 100%;
+    background-color: rgb(8, 51, 87);
+    margin: 0 auto;
+    text-align: center;
+}
+nav.menuPrincipal a{
+    color: #ffffff;
+    padding: 6px 30px;
+    text-decoration: none;
+}
+nav.menuPrincipal a:hover{
+    background-color:  rgb(144, 223, 247);
+    color: rgb(23, 37, 41);
+}
+.grupo{
+    padding: 0.5em 0;
+}
+.grupo label{
+    display: block;
+}
+.sliderPrincipal{
+    background-color: rgb(119, 118, 118);
+}
+.servicios{
+    width: 100%;
+    background-color: rgb(194, 195, 196);
+    margin: 0 auto;
+    text-align: center;
+}
+.servicios article.noticias{
+    width: 30%;
+    display: inline-block;
+}
+.servicios article.noticias h3{
+    font-size: 2em;
+    color: rgb(4, 146, 146);
+    padding: 1em 0 0 0;
+}
+.servicios article.noticias p{
+    text-align: justify;
+    padding: 1em 1em;
+    color: rgb(58, 59, 58);
+    font-size: 0.9em;
+}
+.piePagina{
+    width: 100%;
+    background-color: rgb(31, 32, 32);
+    color: rgb(96, 97, 99);
+    text-align: center;
+    height: 100px;
+}
+.piePagina h6{
+    padding: 2em 0;
+}
+
+.piePagina{ 
+    width: 100%;
+    height: 50%;
+}
+.grupo{
+    text-align: center;
+}
+.grupo label{
+    color: black;
+}
+
+.grupo input{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 40%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.btnGuardar{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background:  rgb(8, 51, 87);
+    width: 10%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+
+}
+
+.text{
+    text-align: right;
+}
+
+.img1{}
+
+.tabla1{
+    background-color: rgb(51, 158, 207);
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    width: 40%;
+    margin: 0 auto;
+}
+
+th,
+td {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #8f9296;
+}
+
+th {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #5446ce;
+    color: black;
+}
+
+tr:nth-child(even) {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ddd;
+}
+
+.container{
+    border: 10px;
+    min-height: calc(100vh - 100px - 300px);
+}
+
+.contenido2{
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 0 1000px 0 300px;
+}
+
+
+@media only screen and (max-width: 750px) {
+    header.cabeceraPrincipal{
+        width: 100%;
+        margin: 0 auto;
+        border-bottom: 1px solid #000000;
+    }
+    header.cabeceraPrincipal img{
+        max-width: 100%;
+        display: inline-block;
+        padding: 0.5em 0.5em;
+        vertical-align: top;
+    }
+    header.cabeceraPrincipal h1{
+        font-size: 1em;
+        padding: 1em;
+        width: 60%;
+        display: inline-block;
+        text-shadow: rgb(36, 36, 36) 2px 2px 1px;
+    }
+}
+
+.noticias img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.size-full{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+.menuPrincipal{
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 550px) {
+    header.cabeceraPrincipal{
+
+        text-align: center;
+    }
+    header.cabeceraPrincipal img{
+
+    }
+    header.cabeceraPrincipal h1{
+        font-size: 1em;
+        padding: 1em;
+        width: 100%;
+        display: block;
+        text-shadow: rgb(36, 36, 36) 2px 2px 1px;
+    }
+    nav.menuPrincipal{
+        height: 100xp;
+    }
+    nav.menuPrincipal a{
+        padding: 6px 30px;
+        display: block;
+        background-color: rgb(70, 68, 68);
+    }
+    .servicios article.noticias{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.informacion{
+    margin-top: 30px;
+    padding-top: 20px;
+}
